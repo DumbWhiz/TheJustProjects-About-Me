@@ -1,7 +1,7 @@
 *{
     box-sizing: border-box;
     margin: 0px;
-    padding: 10px;
+    padding: 0px;
 }
 
 :root{
@@ -15,12 +15,14 @@
 
 body{
     background-color: var(--color);
+    padding:50px;
 }
 
 /* Website Background */
 .container{
     display: flex;
     justify-content: center;
+    /* align-items:center; */
 }
 
 /*Content Background */
@@ -39,32 +41,28 @@ body{
     border-radius: 50%;
     height: 150px;
     width: 150px;
-    
+    margin-bottom:20px;
 }
 
 /* Detail*/
 .container .box .detail{
-    padding: 0px;
-    margin-bottom: 20px;
-    line-height: 15px;
+    line-height:20px;
+    margin-bottom: 30px;
 }
 /* mail */
 .container .box .mail{
     font-size: 14px;
 }
 
-/* Name */
-.container .box #name{
-color: var(--color);
-font-size: 15px;
-font-family:var(--font-family-1);}
+
 
 /* About Me */
 .container .box h1{
 color:var(--color) ;
 font-family: var(--font-family-1);
 font-size: 25px;
-font-weight: 500
+font-weight: 600;
+margin-bottom:10px;
 }
 
 .container .box p,strong{
@@ -77,6 +75,7 @@ font-weight: 500
     font-family: var(--font-family-1);
     font-size: 20px;
     line-height: 28px;
+    margin-bottom:20px;
 
 }
 
@@ -94,8 +93,7 @@ font-weight: 500
     border-radius: 40px;
     font-family: var(--font-family-1);
     padding: 15px;
-    width: 40%;
-    /* margin-top:20px; */
+    width:45%;
 }
 
 /* Button Hover */
