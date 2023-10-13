@@ -95,7 +95,7 @@ font-weight: 500
     font-family: var(--font-family-1);
     padding: 15px;
     width: 40%;
-    margin-top:20px;
+    /* margin-top:20px; */
 }
 
 /* Button Hover */
